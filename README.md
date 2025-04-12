@@ -1,5 +1,5 @@
 MedNova<br/>
-MedNova Welcome to MedNova, your all-in-one platform for tracking your physical health, calming your mind, and getting reliable medical advice. Whether you're aiming for better fitness, mental peace, or smarter healthcare decisions—this website is designed with your total wellness in mind.
+Welcome to MedNova, your all-in-one platform for tracking your physical health, calming your mind, and getting reliable medical advice. Whether you're aiming for better fitness, mental peace, or smarter healthcare decisions—this website is designed with your total wellness in mind.
 
 Features
 
