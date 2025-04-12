@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calm Living - Login/Signup</title>
+    <link rel="stylesheet" href="login_styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">MedNova</div>
+      </header>
+
+      <main class="form-container">
+        <h1>Welcome</h1>
+        <p class="subtitle">
+          Continue your wellness journey or create a new account
+        </p>
+
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="signin">Log In</button>
+          <button class="tab-btn" data-tab="signup">Sign Up</button>
+        </div>
+
+        <!-- Sign In Form -->
+        <form id="signin-form" class="form active">
+          <div class="form-group">
+            <label for="signin-email">Email</label>
+            <input
+              type="email"
+              id="signin-email"
+              placeholder="hello@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="signin-password">Password</label>
+            <input
+              type="password"
+              id="signin-password"
+              placeholder="••••••••"
+              required
+            />
+            <a href="#" class="forgot-password">Forgot password?</a>
+          </div>
+          <div class="form-group">
+            <label class="checkbox-container">
+              <input type="checkbox" id="remember-me" />
+              <span class="checkmark"></span>
+              Remember me
+            </label>
+          </div>
+          <button type="submit" class="submit-btn">
+            <a href="index.html" id="sign-in">Sign In</a>
+          </button>
+        </form>
+
+        <!-- Sign Up Form -->
+        <form id="signup-form" class="form">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="signup-email">Email</label>
+            <input
+              type="email"
+              id="signup-email"
+              placeholder="hello@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="signup-password">Password</label>
+            <input
+              type="password"
+              id="signup-password"
+              placeholder="••••••••"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label class="checkbox-container">
+              <input type="checkbox" id="terms" required />
+              <span class="checkmark"></span>
+              I agree to the
+              <a href="#" class="terms-link">terms and conditions</a>
+            </label>
+          </div>
+          <button type="submit" class="submit-btn">
+            <a href="index.html">Create Account</a>
+          </button>
+        </form>
+
+        <a href="#" class="return-home">Return to Home</a>
+      </main>
+    </div>
+    <script src="login_script.js"></script>
+  </body>
+</html>

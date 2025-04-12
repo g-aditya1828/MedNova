@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calm Living</title>
+    <link rel="stylesheet" href="index_style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="WhatsApp Image 2025-04-12 at 15.23.27_2f1ebbc2.jpg" />
+        <h1>MedNova</h1>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">My Health</a>
+        <a href="#">Resources</a>
+        <a href="myAccount.html">My Account</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="mindfulness">
+        <h2>Mindfulness & Relaxation</h2>
+
+        <div class="guided-meditations">
+          <h3>Guided Meditations</h3>
+          <div class="meditation-cards">
+            <div class="meditation-card">
+              <div class="icon">⏰</div>
+
+              <h4>
+                <a href="morning_calm.html" class="morning-guide"
+                  >Morning Calm</a
+                >
+              </h4>
+
+              <p>10 min</p>
+            </div>
+            <div class="meditation-card">
+              <div class="icon">❤️</div>
+              <h4><a href="stress_relief.html">Stress Relief</a></h4>
+              <p>15 min</p>
+            </div>
+            <div class="meditation-card">
+              <div class="icon">🌙</div>
+              <h4><a href="deep_sleep.html">Deep Sleep</a></h4>
+              <p>30 min</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="calm-music">
+          <h3>Calm Music</h3>
+          <div class="music-player">
+            <div class="player-info">
+              <h4>Forest Sounds</h4>
+              <p>Nature Collection</p>
+            </div>
+            <div class="player-controls">
+              <button class="main-play-btn">▶</button>
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>
+              <div class="time">
+                <span>0:33</span>
+                <span>1:45</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-library">
+          <h3>Music Library</h3>
+          <div class="tracks">
+            <div class="track">
+              <button class="play-btn">▶</button>
+              <span class="track-name">Ocean Waves</span>
+              <span class="track-duration">1:30:00</span>
+            </div>
+            <div class="track">
+              <button class="play-btn">▶</button>
+              <span class="track-name">Rainfall</span>
+              <span class="track-duration">1:00:00</span>
+            </div>
+            <div class="track">
+              <button class="play-btn">▶</button>
+              <span class="track-name">Forest Sounds</span>
+              <span class="track-duration">1:15:00</span>
+            </div>
+            <div class="track">
+              <button class="play-btn">▶</button>
+              <span class="track-name">Gentle Piano</span>
+              <span class="track-duration">45:00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="professional-advice">
+        <div class="advice-card">
+          <h3>Need professional advice?</h3>
+          <button class="consult-btn">Book Appointment</button>
+        </div>
+
+        <div class="medication-assistant">
+          <h3>Medication Assistant</h3>
+          <div class="chat-box">
+            <div class="time">11:35 AM</div>
+            <p>
+              Hello! I'm your medication assistant. Feel free to ask about your
+              medications, dosages, or how to manage symptoms.
+            </p>
+          </div>
+          <div class="chat-input">
+            <input type="text" placeholder="Ask about your medication..." />
+            <button>Send</button>
+          </div>
+          <div class="medication-dosage">
+            <h3>What is the HEALTHY DOSAGE of your medicine?</h3>
+            <div class="output" placeholer="answer"></div>
+          </div>
+        </div>
+
+        <div class="medication-calendar"></div>
+      </aside>
+
+      <section class="activity-tracker">
+        <h2>Activity Tracker</h2>
+        <div class="metrics">
+          <div class="metric-card">
+            <h4>Daily Steps</h4>
+            <div class="metric-value">8,734</div>
+            <div class="metric-target">Target: 10,000</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 87.34%"></div>
+            </div>
+          </div>
+          <div class="metric-card">
+            <h4>Sleep</h4>
+            <div class="metric-value">7.8 hrs</div>
+            <div class="metric-target">Target: 8 hrs</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 97.5%"></div>
+            </div>
+          </div>
+          <div class="metric-card">
+            <h4>Heart Rate</h4>
+            <div class="metric-value">65 bpm</div>
+            <div class="metric-target">Target: Resting</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="weekly-activity">
+          <h3>Weekly Activity</h3>
+          <div class="chart-container">
+            <canvas id="activityChart"></canvas>
+          </div>
+          <div class="activity-summary">
+            <div class="trend">
+              <span class="trend-icon">📈</span>
+              <div class="trend-text">
+                <h4>Activity Trend</h4>
+                <p>15% increase this week</p>
+              </div>
+            </div>
+            <div class="goal">
+              <span class="goal-icon">🎯</span>
+              <div class="goal-text">
+                <h4>Weekly Goal</h4>
+                <p>75% complete - keep going!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
