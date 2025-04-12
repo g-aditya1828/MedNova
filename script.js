@@ -208,7 +208,4 @@ function sendMessage() {
   }
 }
 
-document.getElementById("openLinkBtn").addEventListener("click", function () {
-  const link = "C:UsersAdityaOneDriveDesktop\nit hackmorning_calm.html";
-  window.open(link, "_blank"); //
-});
+
